@@ -1,0 +1,85 @@
+body {
+    background-color: #f0f0f0; /* Fixing background color syntax */
+    font-family: Arial, sans-serif; /* Consistent font */
+}
+
+h1 {
+    color: #003366;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+h2 {
+    color: #005b96; /* Correct color syntax */
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+marquee {
+    font-size: 22px;
+    color: brown;
+    margin: 10px 0;
+}
+
+li {
+    color: #4b0082;
+    text-align: left; /* Align text to the left for better readability */
+    margin: 10px 0;
+}
+
+p {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th, td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #003366;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Optional hover effect for links (if uncommented) */
+a:hover {
+    color: #005b96;
+    text-decoration: underline;
+}
